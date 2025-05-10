@@ -1,0 +1,26 @@
+{
+    "Calorías": {
+        "valor": 804.4,
+        "unidad": "kcal"
+    },
+    "Distancia": {
+        "valor": 943.54,
+        "unidad": "m"
+    },
+    "Minutos Activos": {
+        "valor": 27,
+        "unidad": "min"
+    },
+    "Frecuencia Cardiaca": {
+        "valor": 74.62,
+        "unidad": "bpm"
+    },
+    "Peso": {
+        "valor": 63,
+        "unidad": "kg"
+    },
+    "Altura": {
+        "valor": 1.64,
+        "unidad": "m"
+    }
+}

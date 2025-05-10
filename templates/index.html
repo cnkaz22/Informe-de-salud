@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Informe Diario de Salud</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --azul: #4299e1;
+      --morado: #805ad5;
+      --verde: #38a169;
+      --gris: #f1f5f9;
+      --texto: #1a202c;
+      --bg-card: #ffffff;
+      --sombra: rgba(0, 0, 0, 0.06);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--gris);
+      color: var(--texto);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(90deg, var(--azul), var(--morado));
+      color: #fff;
+      padding: 24px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 28px;
+      font-weight: 700;
+    }
+
+    nav {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      position: relative;
+    }
+
+    nav a::after {
+      content: '';
+      display: block;
+      height: 2px;
+      background: #fff;
+      transform: scaleX(0);
+      transition: transform 0.3s ease;
+      transform-origin: left;
+    }
+
+    nav a:hover::after {
+      transform: scaleX(1);
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 24px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border-radius: 20px;
+      padding: 30px 20px;
+      box-shadow: 0 6px 18px var(--sombra);
+      text-align: center;
+      transition: transform 0.25s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+    }
+
+    .card .icon {
+      font-size: 40px;
+      margin-bottom: 12px;
+    }
+
+    .card .label {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .card .value {
+      font-size: 24px;
+      font-weight: 700;
+      color: var(--morado);
+    }
+
+    h2 {
+      font-size: 26px;
+      margin: 50px 0 20px;
+      color: var(--texto);
+      border-left: 6px solid var(--azul);
+      padding-left: 12px;
+    }
+
+    .analisis {
+      background: #ffffff;
+      border-left: 6px solid var(--verde);
+      padding: 24px;
+      border-radius: 14px;
+      margin-bottom: 40px;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+      font-size: 16px;
+    }
+
+    .grafico img {
+      width: 100%;
+      border-radius: 16px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: #718096;
+      margin: 60px 0 20px;
+    }
+
+    .descargar-fijo {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: linear-gradient(90deg, #667eea, #764ba2);
+      color: white;
+      padding: 14px 24px;
+      font-size: 15px;
+      font-weight: 600;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s ease;
+      z-index: 999;
+    }
+
+    .descargar-fijo:hover {
+      transform: scale(1.05);
+    }
+
+    @media print {
+      .descargar-fijo {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🩺 Informe Diario - {{ fecha }}</h1>
+    <nav>
+      <a href="/">Inicio</a>
+      <a href="/historial">Historial</a>
+      <a href="/comparativo">Comparativo</a>
+      <a href="/consejos">Consejos</a>
+      <a href="/metas">Metas</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="cards">
+      <div class="card">
+        <div class="icon">🔥</div>
+        <div class="label">Calorías</div>
+        <div class="value">{{ calorias }}</div>
+      </div>
+      <div class="card">
+        <div class="icon">🚶‍♂️</div>
+        <div class="label">Distancia</div>
+        <div class="value">{{ distancia }}</div>
+      </div>
+      <div class="card">
+        <div class="icon">⏱️</div>
+        <div class="label">Minutos Activos</div>
+        <div class="value">{{ minutos }}</div>
+      </div>
+      <div class="card">
+        <div class="icon">💓</div>
+        <div class="label">Frecuencia Cardíaca</div>
+        <div class="value">{{ frecuencia }}</div>
+      </div>
+    </div>
+
+    <h2>📋 Ficha Médica</h2>
+    <div class="analisis" style="border-left-color: var(--morado);">
+      <p><strong>Peso:</strong> {{ peso }}</p>
+      <p><strong>Altura:</strong> {{ altura }}</p>
+    </div>
+
+    <h2>🤖 Análisis Inteligente</h2>
+    <div class="analisis">{{ analisis|safe }}</div>
+
+    <h2>📊 Visualización Gráfica</h2>
+    <div class="grafico">
+      <img src="/static/grafico_salud_diario.png" alt="Gráfico de salud diario">
+    </div>
+  </div>
+
+  <footer>
+    © {{ fecha[-4:] }} Panel de Salud Diario · By Claudia Natalia Kazmierczyk
+  </footer>
+
+  <button class="descargar-fijo" onclick="window.print()">📄 PDF</button>
+
+</body>
+</html>

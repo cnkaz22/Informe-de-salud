@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>🎯 Metas de Salud</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text: #1a202c;
+      --subtle: #718096;
+      --primary: #3b82f6;
+      --primary-hover: #2563eb;
+      --success-bg: #d1fae5;
+      --success-text: #065f46;
+      --error-bg: #fee2e2;
+      --error-text: #991b1b;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 38px;
+      font-weight: 700;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .notification {
+      background: var(--success-bg);
+      color: var(--success-text);
+      padding: 14px 20px;
+      border-radius: 10px;
+      font-weight: 600;
+      margin-bottom: 30px;
+      display: none;
+      text-align: center;
+    }
+
+    .form-card {
+      background: var(--card-bg);
+      padding: 32px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+      margin-bottom: 40px;
+    }
+
+    .form-card h2 {
+      font-size: 22px;
+      margin-bottom: 24px;
+      font-weight: 600;
+    }
+
+    .input-row {
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+
+    .form-group {
+      position: relative;
+      flex: 1;
+      min-width: 240px;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 16px 12px 8px;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      font-size: 16px;
+      background: #f9fafb;
+      transition: 0.3s;
+    }
+
+    .form-group input:focus {
+      border-color: var(--primary);
+      outline: none;
+      background: #ffffff;
+    }
+
+    .form-group label {
+      position: absolute;
+      left: 12px;
+      top: 14px;
+      background: white;
+      padding: 0 4px;
+      color: var(--subtle);
+      font-size: 14px;
+      transition: 0.2s ease;
+      pointer-events: none;
+    }
+
+    .form-group input:focus + label,
+    .form-group input:not(:placeholder-shown) + label {
+      top: -8px;
+      left: 10px;
+      font-size: 12px;
+      color: var(--primary);
+    }
+
+    .form-card button {
+      margin-top: 24px;
+      padding: 12px 28px;
+      background: var(--primary);
+      color: white;
+      font-weight: 600;
+      font-size: 16px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.2s ease;
+    }
+
+    .form-card button:hover {
+      background: var(--primary-hover);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.04);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+    }
+
+    .icon {
+      font-size: 42px;
+      margin-bottom: 12px;
+    }
+
+    .title {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .description {
+      font-size: 15px;
+      color: var(--subtle);
+    }
+
+    .status {
+      margin-top: 12px;
+      font-size: 14px;
+      font-weight: bold;
+      padding: 8px 14px;
+      border-radius: 12px;
+      display: inline-block;
+    }
+
+    .ok {
+      background: var(--success-bg);
+      color: var(--success-text);
+    }
+
+    .fail {
+      background: var(--error-bg);
+      color: var(--error-text);
+    }
+
+    .volver {
+      display: block;
+      margin: 50px auto 0;
+      padding: 12px 24px;
+      background: linear-gradient(90deg, #4c51bf, #6b46c1);
+      color: white;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 10px;
+      width: fit-content;
+      transition: 0.2s ease;
+    }
+
+    .volver:hover {
+      transform: translateY(-2px);
+      background: linear-gradient(90deg, #5a67d8, #805ad5);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎯 Metas de Hoy</h1>
+
+  <div class="notification" id="noti">✅ Metas guardadas con éxito.</div>
+
+  <div class="form-card">
+    <h2>📋 Define tus metas</h2>
+    <form method="POST" onsubmit="document.getElementById('noti').style.display='block'">
+      <div class="input-row">
+        <div class="form-group">
+          <input type="number" name="Calorías" id="cal" value="{{ metas_form['Calorías'] }}" required placeholder=" ">
+          <label for="cal">Calorías (kcal)</label>
+        </div>
+        <div class="form-group">
+          <input type="number" name="Distancia" id="dist" value="{{ metas_form['Distancia'] }}" required placeholder=" ">
+          <label for="dist">Distancia (m)</label>
+        </div>
+        <div class="form-group">
+          <input type="number" name="Minutos Activos" id="min" value="{{ metas_form['Minutos Activos'] }}" required placeholder=" ">
+          <label for="min">Minutos Activos</label>
+        </div>
+      </div>
+      <button type="submit">💾 Guardar metas</button>
+    </form>
+  </div>
+
+  <div class="grid">
+    {% for meta in metas %}
+      <div class="card">
+        <div class="icon">
+          {% if meta.nombre == 'Minutos Activos' %}⏱️
+          {% elif meta.nombre == 'Calorías' %}🔥
+          {% elif meta.nombre == 'Distancia' %}🚶‍♀️
+          {% endif %}
+        </div>
+        <div class="title">{{ meta.nombre }}</div>
+        <div class="description">Meta: {{ meta.meta }} {{ meta.unidad }}</div>
+        <div class="description">Hoy: {{ meta.valor_real }} {{ meta.unidad }}</div>
+        <div class="status {% if meta.cumplida %}ok{% else %}fail{% endif %}">
+          {% if meta.cumplida %}✅ Cumplida{% else %}❌ Incompleta{% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <a class="volver" href="/">🏠 Volver al informe de hoy</a>
+
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>💡 Consejos de Salud</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --azul: #4299e1;
+      --morado: #667eea;
+      --texto: #2d3748;
+      --fondo: #edf2f7;
+      --tarjeta: #ffffff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to bottom right, #f7fafc, #e2e8f0);
+      color: var(--texto);
+      padding: 50px 20px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 30px;
+      background: #fefefe;
+      border-radius: 24px;
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.06);
+    }
+
+    h1 {
+      font-size: 32px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 35px;
+      background: linear-gradient(90deg, var(--azul), var(--morado));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    h1::before {
+      content: "💡";
+      font-size: 36px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      background: var(--tarjeta);
+      border: 1px solid #e2e8f0;
+      border-radius: 16px;
+      padding: 22px 20px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.04);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+    }
+
+    .icon {
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
+
+    .title {
+      font-weight: 600;
+      font-size: 17px;
+      color: var(--azul);
+      margin-bottom: 6px;
+    }
+
+    .text {
+      font-size: 15px;
+      line-height: 1.5;
+      color: #4a5568;
+    }
+
+    .no-consejos {
+      font-size: 17px;
+      text-align: center;
+      color: #718096;
+      margin-top: 30px;
+    }
+
+    .volver {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 12px 24px;
+      background: linear-gradient(90deg, var(--azul), var(--morado));
+      color: white;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(66, 153, 225, 0.3);
+      transition: all 0.3s ease;
+    }
+
+    .volver:hover {
+      background: linear-gradient(90deg, var(--morado), var(--azul));
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Consejos de Salud</h1>
+
+    <div class="grid">
+      {% if tarjetas %}
+        {% for c in tarjetas %}
+          <div class="card">
+            <div class="icon">{{ c.icono }}</div>
+            <div class="title">{{ c.titulo }}</div>
+            <div class="text">{{ c.texto }}</div>
+          </div>
+        {% endfor %}
+      {% else %}
+        <p class="no-consejos">No se encontraron consejos disponibles para hoy.</p>
+      {% endif %}
+    </div>
+
+    <a class="volver" href="/">🏠 Volver al informe de hoy</a>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+🚨 **Alertas**
+- No se han registrado minutos activos, lo que indica sedentarismo en el día.
+- El peso y la altura son datos ausentes, lo que limita el análisis del estado físico.
+
+💡 **Consejos**
+- Intenta incorporar al menos 30 minutos de actividad física moderada al día, como caminar o andar en bicicleta.
+- Realiza un seguimiento de tu peso y altura para poder evaluar mejor tu estado de salud en el futuro.
+
+🌟 **Buenas prácticas**
+- Has quemado 1060,3 kcal, lo cual es un buen logro, considerando que no se registraron minutos activos. Esto puede estar relacionado con otras actividades realizadas.
+
+```json
+{
+  "actividad_fisica": [
+    {
+      "icono": "🚶‍♂️",
+      "titulo": "Camina en bloques",
+      "texto": "Incorpora caminatas cortas durante el día para aumentar tus minutos activos.",
+      "prioridad": "alta"
+    }
+  ],
+  "nutricion": [
+    {
+      "icono": "🥗",
+      "titulo": "Energía limpia",
+      "texto": "Considera llevar un registro de tu ingesta calórica y asegurar un equilibrio en tu dieta.",
+      "prioridad": "media"
+    }
+  ],
+  "descanso_y_recuperacion": [
+    {
+      "icono": "🛌",
+      "titulo": "Rutina nocturna",
+      "texto": "Asegúrate de tener una buena calidad de sueño para ayudar a tu recuperación.",
+      "prioridad": "media"
+    }
+  ],
+  "salud_mental": [
+    {
+      "icono": "🧘‍♂️",
+      "titulo": "Resetea tu mente",
+      "texto": "Dedica tiempo a tus pasatiempos para reducir el estrés y mejorar tu bienestar mental.",
+      "prioridad": "baja"
+    }
+  ],
+  "hidratacion": [
+    {
+      "icono": "💧",
+      "titulo": "Recuerda beber",
+      "texto": "Mantén una buena hidratación durante el día, especialmente si te ejercitas.",
+      "prioridad": "media"
+    }
+  ],
+  "elogios": [
+    {
+      "icono": "🏆",
+      "titulo": "Buen trabajo",
+      "texto": "Excelente trabajo al quemar 1060.3 kcal, ¡sigue así!",
+      "prioridad": "n/a"
+    }
+  ]
+}

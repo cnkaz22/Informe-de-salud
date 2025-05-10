@@ -1,0 +1,64 @@
+🚨 **Alertas**
+- La duración de la actividad física es relativamente baja (27 minutos), lo que podría indicar un estilo de vida sedentario.
+- La frecuencia cardíaca se encuentra en un rango saludable, pero es importante mantener la actividad física.
+
+💡 **Consejos**
+- Intenta aumentar la duración de tus sesiones de actividad física a al menos 30-60 minutos para mejorar tu salud cardiovascular.
+- Considera hacer ejercicios de alta intensidad o actividades que te motiven para mantener una buena frecuencia cardíaca y quema de calorías.
+
+🌟 **Buenas prácticas**
+- Has quemado 804.4 kcal, lo que es un excelente esfuerzo en términos de actividad física.
+- Mantienes una frecuencia cardíaca promedio de 74.62 bpm, lo cual es saludable y muestra un buen nivel de fitness cardiovascular.
+
+```json
+{
+  "actividad_fisica": [
+    {
+      "icono": "🚶‍♂️",
+      "titulo": "Camina en bloques",
+      "texto": "Intenta aumentar la duración de tus sesiones a al menos 30-60 minutos.",
+      "prioridad": "alta"
+    }
+  ],
+  "nutricion": [
+    {
+      "icono": "🥗",
+      "titulo": "Energía limpia",
+      "texto": "Intenta equilibrar tu ingesta calórica para maximizar tu energía diaria.",
+      "prioridad": "media"
+    }
+  ],
+  "descanso_y_recuperacion": [
+    {
+      "icono": "🛌",
+      "titulo": "Rutina nocturna",
+      "texto": "Asegúrate de descansar adecuadamente para recuperar energía y mejorar tu rendimiento.",
+      "prioridad": "media"
+    }
+  ],
+  "salud_mental": [
+    {
+      "icono": "🧘‍♂️",
+      "titulo": "Resetea tu mente",
+      "texto": "Dedica tiempo a la meditación o actividades que te relajen y reduzcan el estrés.",
+      "prioridad": "baja"
+    }
+  ],
+  "hidratacion": [
+    {
+      "icono": "💧",
+      "titulo": "Recuerda beber",
+      "texto": "Mantén una buena hidratación para mejorar tu rendimiento físico y bienestar general.",
+      "prioridad": "media"
+    }
+  ],
+  "elogios": [
+    {
+      "icono": "🏆",
+      "titulo": "Buen trabajo",
+      "texto": "Has quemado 804.4 kcal y mantienes una buena frecuencia cardíaca. ¡Sigue así!",
+      "prioridad": "n/a"
+    }
+  ]
+}
+```

@@ -1,0 +1,354 @@
+[INFO] 2025-04-30 15:20:17,821 - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:20:18,228 - HTTP Request: POST https://api.openai.com/v1/threads/thread_KrD4FB36jyFNLhpRRHkS0xWF/messages "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:20:19,662 - HTTP Request: POST https://api.openai.com/v1/threads/thread_KrD4FB36jyFNLhpRRHkS0xWF/runs "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:20:20,071 - HTTP Request: GET https://api.openai.com/v1/threads/thread_KrD4FB36jyFNLhpRRHkS0xWF/runs/run_lUFzfBnglde7qUKv9Bf338vB "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:20:21,607 - HTTP Request: GET https://api.openai.com/v1/threads/thread_KrD4FB36jyFNLhpRRHkS0xWF/runs/run_lUFzfBnglde7qUKv9Bf338vB "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:20:22,938 - HTTP Request: GET https://api.openai.com/v1/threads/thread_KrD4FB36jyFNLhpRRHkS0xWF/runs/run_lUFzfBnglde7qUKv9Bf338vB "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:20:24,375 - HTTP Request: GET https://api.openai.com/v1/threads/thread_KrD4FB36jyFNLhpRRHkS0xWF/runs/run_lUFzfBnglde7qUKv9Bf338vB "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:20:24,681 - HTTP Request: GET https://api.openai.com/v1/threads/thread_KrD4FB36jyFNLhpRRHkS0xWF/messages "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:20:27,087 - 10.163.153.57 - - [30/Apr/2025 15:20:27] "GET / HTTP/1.1" 200 -
+[INFO] 2025-04-30 15:20:27,127 - 10.163.153.57 - - [30/Apr/2025 15:20:27] "GET /static/grafico_salud.png HTTP/1.1" 200 -
+[INFO] 2025-04-30 15:21:36,673 - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:21:37,774 - HTTP Request: POST https://api.openai.com/v1/threads/thread_yAgfDT5SbQd4Fq682pOystgv/messages "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:21:38,858 - HTTP Request: POST https://api.openai.com/v1/threads/thread_yAgfDT5SbQd4Fq682pOystgv/runs "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:21:39,225 - HTTP Request: GET https://api.openai.com/v1/threads/thread_yAgfDT5SbQd4Fq682pOystgv/runs/run_KaWRvwDkZnqXU0jJOdSMjjKL "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:21:40,543 - HTTP Request: GET https://api.openai.com/v1/threads/thread_yAgfDT5SbQd4Fq682pOystgv/runs/run_KaWRvwDkZnqXU0jJOdSMjjKL "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:21:41,883 - HTTP Request: GET https://api.openai.com/v1/threads/thread_yAgfDT5SbQd4Fq682pOystgv/runs/run_KaWRvwDkZnqXU0jJOdSMjjKL "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:21:44,907 - HTTP Request: GET https://api.openai.com/v1/threads/thread_yAgfDT5SbQd4Fq682pOystgv/runs/run_KaWRvwDkZnqXU0jJOdSMjjKL "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:21:45,165 - HTTP Request: GET https://api.openai.com/v1/threads/thread_yAgfDT5SbQd4Fq682pOystgv/messages "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:21:48,161 - 10.163.153.57 - - [30/Apr/2025 15:21:48] "GET / HTTP/1.1" 200 -
+[INFO] 2025-04-30 15:21:48,215 - 10.163.153.57 - - [30/Apr/2025 15:21:48] "GET /static/grafico_salud.png HTTP/1.1" 200 -
+[INFO] 2025-04-30 15:25:52,666 - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:25:53,005 - HTTP Request: POST https://api.openai.com/v1/threads/thread_9HaPMCIu5KyjBoTHCC06BgAC/messages "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:25:54,168 - HTTP Request: POST https://api.openai.com/v1/threads/thread_9HaPMCIu5KyjBoTHCC06BgAC/runs "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:25:55,084 - HTTP Request: GET https://api.openai.com/v1/threads/thread_9HaPMCIu5KyjBoTHCC06BgAC/runs/run_ndzXr7IKGIjJuaDMvLsQSWdd "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:25:56,453 - HTTP Request: GET https://api.openai.com/v1/threads/thread_9HaPMCIu5KyjBoTHCC06BgAC/runs/run_ndzXr7IKGIjJuaDMvLsQSWdd "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:25:58,088 - HTTP Request: GET https://api.openai.com/v1/threads/thread_9HaPMCIu5KyjBoTHCC06BgAC/runs/run_ndzXr7IKGIjJuaDMvLsQSWdd "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:25:58,400 - HTTP Request: GET https://api.openai.com/v1/threads/thread_9HaPMCIu5KyjBoTHCC06BgAC/messages "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:26:00,390 - 10.163.153.57 - - [30/Apr/2025 15:26:00] "GET / HTTP/1.1" 200 -
+[INFO] 2025-04-30 15:26:00,498 - 10.163.153.57 - - [30/Apr/2025 15:26:00] "GET /static/grafico_salud.png HTTP/1.1" 200 -
+[INFO] 2025-04-30 15:26:16,125 - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:26:16,687 - HTTP Request: POST https://api.openai.com/v1/threads/thread_ZDcdR2aUpOkKkGW6HmzeqLPJ/messages "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:26:17,957 - HTTP Request: POST https://api.openai.com/v1/threads/thread_ZDcdR2aUpOkKkGW6HmzeqLPJ/runs "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:26:18,301 - HTTP Request: GET https://api.openai.com/v1/threads/thread_ZDcdR2aUpOkKkGW6HmzeqLPJ/runs/run_F8bJUq2mnAAB0F7TlXD7x62i "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:26:19,702 - HTTP Request: GET https://api.openai.com/v1/threads/thread_ZDcdR2aUpOkKkGW6HmzeqLPJ/runs/run_F8bJUq2mnAAB0F7TlXD7x62i "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:26:21,135 - HTTP Request: GET https://api.openai.com/v1/threads/thread_ZDcdR2aUpOkKkGW6HmzeqLPJ/runs/run_F8bJUq2mnAAB0F7TlXD7x62i "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:26:22,567 - HTTP Request: GET https://api.openai.com/v1/threads/thread_ZDcdR2aUpOkKkGW6HmzeqLPJ/runs/run_F8bJUq2mnAAB0F7TlXD7x62i "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:26:22,872 - HTTP Request: GET https://api.openai.com/v1/threads/thread_ZDcdR2aUpOkKkGW6HmzeqLPJ/messages "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:26:24,557 - 10.163.153.57 - - [30/Apr/2025 15:26:24] "GET / HTTP/1.1" 200 -
+[INFO] 2025-04-30 15:26:24,590 - 10.163.153.57 - - [30/Apr/2025 15:26:24] "GET /static/grafico_salud.png HTTP/1.1" 200 -
+[INFO] 2025-04-30 15:27:57,592 - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:27:58,013 - HTTP Request: POST https://api.openai.com/v1/threads/thread_xsoJu93erbeRcathH7ftA6JT/messages "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:27:59,536 - HTTP Request: POST https://api.openai.com/v1/threads/thread_xsoJu93erbeRcathH7ftA6JT/runs "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:27:59,946 - HTTP Request: GET https://api.openai.com/v1/threads/thread_xsoJu93erbeRcathH7ftA6JT/runs/run_Y1vgIk5RxXzrCGiIPmirstO6 "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:28:01,380 - HTTP Request: GET https://api.openai.com/v1/threads/thread_xsoJu93erbeRcathH7ftA6JT/runs/run_Y1vgIk5RxXzrCGiIPmirstO6 "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:28:02,814 - HTTP Request: GET https://api.openai.com/v1/threads/thread_xsoJu93erbeRcathH7ftA6JT/runs/run_Y1vgIk5RxXzrCGiIPmirstO6 "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:28:03,019 - HTTP Request: GET https://api.openai.com/v1/threads/thread_xsoJu93erbeRcathH7ftA6JT/messages "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:28:04,579 - 10.163.153.57 - - [30/Apr/2025 15:28:04] "GET / HTTP/1.1" 200 -
+[INFO] 2025-04-30 15:28:04,600 - 10.163.153.57 - - [30/Apr/2025 15:28:04] "GET /static/grafico_salud.png HTTP/1.1" 200 -
+[INFO] 2025-04-30 15:31:16,688 - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:31:17,160 - HTTP Request: POST https://api.openai.com/v1/threads/thread_872DtmOe2hBTEVWw9MArS5V3/messages "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:31:18,262 - HTTP Request: POST https://api.openai.com/v1/threads/thread_872DtmOe2hBTEVWw9MArS5V3/runs "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:31:18,704 - HTTP Request: GET https://api.openai.com/v1/threads/thread_872DtmOe2hBTEVWw9MArS5V3/runs/run_qQEpCpy794knGifeC82zLevD "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:31:20,063 - HTTP Request: GET https://api.openai.com/v1/threads/thread_872DtmOe2hBTEVWw9MArS5V3/runs/run_qQEpCpy794knGifeC82zLevD "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:31:21,366 - HTTP Request: GET https://api.openai.com/v1/threads/thread_872DtmOe2hBTEVWw9MArS5V3/runs/run_qQEpCpy794knGifeC82zLevD "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:31:22,825 - HTTP Request: GET https://api.openai.com/v1/threads/thread_872DtmOe2hBTEVWw9MArS5V3/runs/run_qQEpCpy794knGifeC82zLevD "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:31:25,566 - HTTP Request: GET https://api.openai.com/v1/threads/thread_872DtmOe2hBTEVWw9MArS5V3/runs/run_qQEpCpy794knGifeC82zLevD "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:31:26,999 - HTTP Request: GET https://api.openai.com/v1/threads/thread_872DtmOe2hBTEVWw9MArS5V3/runs/run_qQEpCpy794knGifeC82zLevD "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:31:27,307 - HTTP Request: GET https://api.openai.com/v1/threads/thread_872DtmOe2hBTEVWw9MArS5V3/messages "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:31:29,079 - 10.163.153.57 - - [30/Apr/2025 15:31:29] "GET / HTTP/1.1" 200 -
+[INFO] 2025-04-30 15:31:29,104 - 10.163.153.57 - - [30/Apr/2025 15:31:29] "GET /static/grafico_salud.png HTTP/1.1" 200 -
+[INFO] 2025-04-30 15:31:33,255 - 127.0.0.1 - - [30/Apr/2025 15:31:33] "[33mGET /historial HTTP/1.1[0m" 404 -
+[INFO] 2025-04-30 15:31:33,566 - 127.0.0.1 - - [30/Apr/2025 15:31:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[INFO] 2025-04-30 15:31:36,121 - 127.0.0.1 - - [30/Apr/2025 15:31:36] "[33mGET /informe/20250430 HTTP/1.1[0m" 404 -
+[INFO] 2025-04-30 15:36:09,622 - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:36:10,031 - HTTP Request: POST https://api.openai.com/v1/threads/thread_2bcni2zQWqYfC2GRIo1X5LvJ/messages "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:36:10,952 - HTTP Request: POST https://api.openai.com/v1/threads/thread_2bcni2zQWqYfC2GRIo1X5LvJ/runs "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:36:11,364 - HTTP Request: GET https://api.openai.com/v1/threads/thread_2bcni2zQWqYfC2GRIo1X5LvJ/runs/run_UeIlDj0AQzz8DvbqYfueaUIT "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:36:12,796 - HTTP Request: GET https://api.openai.com/v1/threads/thread_2bcni2zQWqYfC2GRIo1X5LvJ/runs/run_UeIlDj0AQzz8DvbqYfueaUIT "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:36:14,071 - HTTP Request: GET https://api.openai.com/v1/threads/thread_2bcni2zQWqYfC2GRIo1X5LvJ/runs/run_UeIlDj0AQzz8DvbqYfueaUIT "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:36:14,435 - HTTP Request: GET https://api.openai.com/v1/threads/thread_2bcni2zQWqYfC2GRIo1X5LvJ/messages "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:36:16,334 - 127.0.0.1 - - [30/Apr/2025 15:36:16] "GET / HTTP/1.1" 200 -
+[INFO] 2025-04-30 15:36:16,367 - 127.0.0.1 - - [30/Apr/2025 15:36:16] "GET /static/grafico_salud.png HTTP/1.1" 200 -
+[INFO] 2025-04-30 15:36:16,507 - 127.0.0.1 - - [30/Apr/2025 15:36:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ERROR] 2025-04-30 15:36:28,309 - Exception on /historial [GET]
+Traceback (most recent call last):
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Claudia Natalia\Desktop\TFG\app.py", line 110, in ver_historial
+    return render_template("historial.html", archivos=archivos)
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Claudia Natalia\Desktop\TFG\templates\historial.html", line 6, in top-level template code
+    Informe del {{ archivo[7:15]|datetimeformat }}
+    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Claudia Natalia\Desktop\TFG\app.py", line 21, in datetimeformat
+    return datetime.strptime(value, '%Y%m%d').strftime('%d/%m/%Y')
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\_strptime.py", line 573, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\_strptime.py", line 352, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+                     (data_string, format))
+ValueError: time data 'iarios.j' does not match format '%Y%m%d'
+[INFO] 2025-04-30 15:36:28,377 - 127.0.0.1 - - [30/Apr/2025 15:36:28] "[35m[1mGET /historial HTTP/1.1[0m" 500 -
+[ERROR] 2025-04-30 15:36:31,539 - Exception on /comparativo [GET]
+Traceback (most recent call last):
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Claudia Natalia\Desktop\TFG\app.py", line 136, in ver_comparativo
+    generar_grafico_comparativo()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Claudia Natalia\Desktop\TFG\databueno.py", line 97, in generar_grafico_comparativo
+    fechas.append(datetime.strptime(fecha, "%Y%m%d").strftime('%d/%m'))
+                  ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\_strptime.py", line 573, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\_strptime.py", line 355, in _strptime
+    raise ValueError("unconverted data remains: %s" %
+                      data_string[found.end():])
+ValueError: unconverted data remains: .
+[INFO] 2025-04-30 15:36:31,547 - 127.0.0.1 - - [30/Apr/2025 15:36:31] "[35m[1mGET /comparativo HTTP/1.1[0m" 500 -
+[ERROR] 2025-04-30 15:36:37,663 - Exception on /historial [GET]
+Traceback (most recent call last):
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Claudia Natalia\Desktop\TFG\app.py", line 110, in ver_historial
+    return render_template("historial.html", archivos=archivos)
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Claudia Natalia\Desktop\TFG\templates\historial.html", line 6, in top-level template code
+    Informe del {{ archivo[7:15]|datetimeformat }}
+    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Claudia Natalia\Desktop\TFG\app.py", line 21, in datetimeformat
+    return datetime.strptime(value, '%Y%m%d').strftime('%d/%m/%Y')
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\_strptime.py", line 573, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\_strptime.py", line 352, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+                     (data_string, format))
+ValueError: time data 'iarios.j' does not match format '%Y%m%d'
+[INFO] 2025-04-30 15:36:37,670 - 127.0.0.1 - - [30/Apr/2025 15:36:37] "[35m[1mGET /historial HTTP/1.1[0m" 500 -
+[INFO] 2025-04-30 15:37:18,129 - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:37:18,450 - HTTP Request: POST https://api.openai.com/v1/threads/thread_YMmW86s8xnIlnH6li9763dn8/messages "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:37:19,465 - HTTP Request: POST https://api.openai.com/v1/threads/thread_YMmW86s8xnIlnH6li9763dn8/runs "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:37:19,866 - HTTP Request: GET https://api.openai.com/v1/threads/thread_YMmW86s8xnIlnH6li9763dn8/runs/run_U5Cqrwy3XQCvCWf9iHPbEWXQ "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:37:21,198 - HTTP Request: GET https://api.openai.com/v1/threads/thread_YMmW86s8xnIlnH6li9763dn8/runs/run_U5Cqrwy3XQCvCWf9iHPbEWXQ "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:37:22,520 - HTTP Request: GET https://api.openai.com/v1/threads/thread_YMmW86s8xnIlnH6li9763dn8/runs/run_U5Cqrwy3XQCvCWf9iHPbEWXQ "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:37:23,963 - HTTP Request: GET https://api.openai.com/v1/threads/thread_YMmW86s8xnIlnH6li9763dn8/runs/run_U5Cqrwy3XQCvCWf9iHPbEWXQ "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:37:24,270 - HTTP Request: GET https://api.openai.com/v1/threads/thread_YMmW86s8xnIlnH6li9763dn8/messages "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:37:26,106 - 127.0.0.1 - - [30/Apr/2025 15:37:26] "GET / HTTP/1.1" 200 -
+[INFO] 2025-04-30 15:37:26,130 - 127.0.0.1 - - [30/Apr/2025 15:37:26] "GET /static/grafico_salud.png HTTP/1.1" 200 -
+[ERROR] 2025-04-30 15:37:45,684 - Exception on /historial [GET]
+Traceback (most recent call last):
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Claudia Natalia\Desktop\TFG\app.py", line 110, in ver_historial
+    return render_template("historial.html", archivos=archivos)
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Claudia Natalia\Desktop\TFG\templates\historial.html", line 6, in top-level template code
+    Informe del {{ archivo[7:15]|datetimeformat }}
+    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Claudia Natalia\Desktop\TFG\app.py", line 21, in datetimeformat
+    return datetime.strptime(value, '%Y%m%d').strftime('%d/%m/%Y')
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\_strptime.py", line 573, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\_strptime.py", line 352, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+                     (data_string, format))
+ValueError: time data 'iarios.j' does not match format '%Y%m%d'
+[INFO] 2025-04-30 15:37:45,692 - 127.0.0.1 - - [30/Apr/2025 15:37:45] "[35m[1mGET /historial HTTP/1.1[0m" 500 -
+[ERROR] 2025-04-30 15:37:48,698 - Exception on /comparativo [GET]
+Traceback (most recent call last):
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Claudia Natalia\Desktop\TFG\app.py", line 136, in ver_comparativo
+    generar_grafico_comparativo()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Claudia Natalia\Desktop\TFG\databueno.py", line 97, in generar_grafico_comparativo
+    fechas.append(datetime.strptime(fecha, "%Y%m%d").strftime('%d/%m'))
+                  ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\_strptime.py", line 573, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\_strptime.py", line 355, in _strptime
+    raise ValueError("unconverted data remains: %s" %
+                      data_string[found.end():])
+ValueError: unconverted data remains: .
+[INFO] 2025-04-30 15:37:48,704 - 127.0.0.1 - - [30/Apr/2025 15:37:48] "[35m[1mGET /comparativo HTTP/1.1[0m" 500 -
+[INFO] 2025-04-30 15:40:42,515 - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:40:43,846 - HTTP Request: POST https://api.openai.com/v1/threads/thread_DbaC0OM8HidBKS75A0LTCOYH/messages "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:40:47,840 - HTTP Request: POST https://api.openai.com/v1/threads/thread_DbaC0OM8HidBKS75A0LTCOYH/runs "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:40:48,250 - HTTP Request: GET https://api.openai.com/v1/threads/thread_DbaC0OM8HidBKS75A0LTCOYH/runs/run_073b6gUo2m4R6qUeAm67UQui "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:40:49,687 - HTTP Request: GET https://api.openai.com/v1/threads/thread_DbaC0OM8HidBKS75A0LTCOYH/runs/run_073b6gUo2m4R6qUeAm67UQui "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:40:51,027 - HTTP Request: GET https://api.openai.com/v1/threads/thread_DbaC0OM8HidBKS75A0LTCOYH/runs/run_073b6gUo2m4R6qUeAm67UQui "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:40:52,551 - HTTP Request: GET https://api.openai.com/v1/threads/thread_DbaC0OM8HidBKS75A0LTCOYH/runs/run_073b6gUo2m4R6qUeAm67UQui "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:40:53,370 - HTTP Request: GET https://api.openai.com/v1/threads/thread_DbaC0OM8HidBKS75A0LTCOYH/messages "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:40:56,181 - 10.163.153.57 - - [30/Apr/2025 15:40:56] "GET / HTTP/1.1" 200 -
+[INFO] 2025-04-30 15:40:56,201 - 10.163.153.57 - - [30/Apr/2025 15:40:56] "GET /static/grafico_salud.png HTTP/1.1" 200 -
+[INFO] 2025-04-30 15:41:15,881 - 10.163.153.57 - - [30/Apr/2025 15:41:15] "GET /historial HTTP/1.1" 200 -
+[INFO] 2025-04-30 15:41:19,626 - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:41:20,015 - HTTP Request: POST https://api.openai.com/v1/threads/thread_B21TOd1PH4IYhTp1gDxR5jGv/messages "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:41:21,222 - HTTP Request: POST https://api.openai.com/v1/threads/thread_B21TOd1PH4IYhTp1gDxR5jGv/runs "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:41:21,544 - HTTP Request: GET https://api.openai.com/v1/threads/thread_B21TOd1PH4IYhTp1gDxR5jGv/runs/run_X6sYxkdL3tB17h2rGsCOAPbz "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:41:23,008 - HTTP Request: GET https://api.openai.com/v1/threads/thread_B21TOd1PH4IYhTp1gDxR5jGv/runs/run_X6sYxkdL3tB17h2rGsCOAPbz "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:41:24,336 - HTTP Request: GET https://api.openai.com/v1/threads/thread_B21TOd1PH4IYhTp1gDxR5jGv/runs/run_X6sYxkdL3tB17h2rGsCOAPbz "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:41:25,727 - HTTP Request: GET https://api.openai.com/v1/threads/thread_B21TOd1PH4IYhTp1gDxR5jGv/runs/run_X6sYxkdL3tB17h2rGsCOAPbz "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:41:26,070 - HTTP Request: GET https://api.openai.com/v1/threads/thread_B21TOd1PH4IYhTp1gDxR5jGv/messages "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:41:27,491 - 10.163.153.57 - - [30/Apr/2025 15:41:27] "GET / HTTP/1.1" 200 -
+[INFO] 2025-04-30 15:41:27,509 - 10.163.153.57 - - [30/Apr/2025 15:41:27] "GET /static/grafico_salud.png HTTP/1.1" 200 -
+[ERROR] 2025-04-30 15:41:29,982 - Exception on /comparativo [GET]
+Traceback (most recent call last):
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Claudia Natalia\Desktop\TFG\app.py", line 134, in ver_comparativo
+    generar_grafico_comparativo()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Claudia Natalia\Desktop\TFG\databueno.py", line 97, in generar_grafico_comparativo
+    fechas.append(datetime.strptime(fecha, "%Y%m%d").strftime('%d/%m'))
+                  ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\_strptime.py", line 573, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\_strptime.py", line 355, in _strptime
+    raise ValueError("unconverted data remains: %s" %
+                      data_string[found.end():])
+ValueError: unconverted data remains: .
+[INFO] 2025-04-30 15:41:29,986 - 10.163.153.57 - - [30/Apr/2025 15:41:29] "[35m[1mGET /comparativo HTTP/1.1[0m" 500 -
+[ERROR] 2025-04-30 15:42:55,543 - Exception on /comparativo [GET]
+Traceback (most recent call last):
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Claudia Natalia\Desktop\TFG\app.py", line 134, in ver_comparativo
+    generar_grafico_comparativo()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Claudia Natalia\Desktop\TFG\databueno.py", line 97, in generar_grafico_comparativo
+    fechas.append(datetime.strptime(fecha, "%Y%m%d").strftime('%d/%m'))
+                  ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\_strptime.py", line 573, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Claudia Natalia\AppData\Local\Programs\Python\Python313\Lib\_strptime.py", line 355, in _strptime
+    raise ValueError("unconverted data remains: %s" %
+                      data_string[found.end():])
+ValueError: unconverted data remains: .
+[INFO] 2025-04-30 15:42:55,548 - 10.163.153.57 - - [30/Apr/2025 15:42:55] "[35m[1mGET /comparativo HTTP/1.1[0m" 500 -
+[INFO] 2025-04-30 15:45:02,305 - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:45:02,713 - HTTP Request: POST https://api.openai.com/v1/threads/thread_XdTCanjJ2EpdPtK5MsV532es/messages "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:45:03,920 - HTTP Request: POST https://api.openai.com/v1/threads/thread_XdTCanjJ2EpdPtK5MsV532es/runs "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:45:04,306 - HTTP Request: GET https://api.openai.com/v1/threads/thread_XdTCanjJ2EpdPtK5MsV532es/runs/run_9IjUtj9w1r8ENR91yrXICLth "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:45:05,682 - HTTP Request: GET https://api.openai.com/v1/threads/thread_XdTCanjJ2EpdPtK5MsV532es/runs/run_9IjUtj9w1r8ENR91yrXICLth "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:45:07,116 - HTTP Request: GET https://api.openai.com/v1/threads/thread_XdTCanjJ2EpdPtK5MsV532es/runs/run_9IjUtj9w1r8ENR91yrXICLth "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:45:08,549 - HTTP Request: GET https://api.openai.com/v1/threads/thread_XdTCanjJ2EpdPtK5MsV532es/runs/run_9IjUtj9w1r8ENR91yrXICLth "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:45:08,857 - HTTP Request: GET https://api.openai.com/v1/threads/thread_XdTCanjJ2EpdPtK5MsV532es/messages "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:45:11,010 - 10.163.153.57 - - [30/Apr/2025 15:45:11] "GET / HTTP/1.1" 200 -
+[INFO] 2025-04-30 15:45:11,050 - 10.163.153.57 - - [30/Apr/2025 15:45:11] "GET /static/grafico_salud.png HTTP/1.1" 200 -
+[INFO] 2025-04-30 15:45:20,168 - 10.163.153.57 - - [30/Apr/2025 15:45:20] "GET /historial HTTP/1.1" 200 -
+[INFO] 2025-04-30 15:47:10,100 - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:47:10,468 - HTTP Request: POST https://api.openai.com/v1/threads/thread_onTPuJztB52rhNS8VppfVsXH/messages "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:47:11,839 - HTTP Request: POST https://api.openai.com/v1/threads/thread_onTPuJztB52rhNS8VppfVsXH/runs "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:47:12,165 - HTTP Request: GET https://api.openai.com/v1/threads/thread_onTPuJztB52rhNS8VppfVsXH/runs/run_0UwjCVRz9voygMLtoK3uBu69 "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:47:13,583 - HTTP Request: GET https://api.openai.com/v1/threads/thread_onTPuJztB52rhNS8VppfVsXH/runs/run_0UwjCVRz9voygMLtoK3uBu69 "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:47:15,236 - HTTP Request: GET https://api.openai.com/v1/threads/thread_onTPuJztB52rhNS8VppfVsXH/runs/run_0UwjCVRz9voygMLtoK3uBu69 "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:47:16,652 - HTTP Request: GET https://api.openai.com/v1/threads/thread_onTPuJztB52rhNS8VppfVsXH/runs/run_0UwjCVRz9voygMLtoK3uBu69 "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:47:16,959 - HTTP Request: GET https://api.openai.com/v1/threads/thread_onTPuJztB52rhNS8VppfVsXH/messages "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:47:19,309 - 10.163.153.57 - - [30/Apr/2025 15:47:19] "GET / HTTP/1.1" 200 -
+[INFO] 2025-04-30 15:47:19,359 - 10.163.153.57 - - [30/Apr/2025 15:47:19] "GET /static/grafico_salud.png HTTP/1.1" 200 -
+[INFO] 2025-04-30 15:49:06,322 - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:49:06,730 - HTTP Request: POST https://api.openai.com/v1/threads/thread_PbJt8DQqMzYFw5XiNSloSqgh/messages "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:49:10,025 - HTTP Request: POST https://api.openai.com/v1/threads/thread_PbJt8DQqMzYFw5XiNSloSqgh/runs "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:49:10,724 - HTTP Request: GET https://api.openai.com/v1/threads/thread_PbJt8DQqMzYFw5XiNSloSqgh/runs/run_XBNPpOXGL2xajdwZa07SRn5P "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:49:12,223 - HTTP Request: GET https://api.openai.com/v1/threads/thread_PbJt8DQqMzYFw5XiNSloSqgh/runs/run_XBNPpOXGL2xajdwZa07SRn5P "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:49:13,591 - HTTP Request: GET https://api.openai.com/v1/threads/thread_PbJt8DQqMzYFw5XiNSloSqgh/runs/run_XBNPpOXGL2xajdwZa07SRn5P "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:49:15,032 - HTTP Request: GET https://api.openai.com/v1/threads/thread_PbJt8DQqMzYFw5XiNSloSqgh/runs/run_XBNPpOXGL2xajdwZa07SRn5P "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:49:15,331 - HTTP Request: GET https://api.openai.com/v1/threads/thread_PbJt8DQqMzYFw5XiNSloSqgh/messages "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:49:17,581 - 10.163.153.57 - - [30/Apr/2025 15:49:17] "GET / HTTP/1.1" 200 -
+[INFO] 2025-04-30 15:49:17,630 - 10.163.153.57 - - [30/Apr/2025 15:49:17] "GET /static/grafico_salud.png HTTP/1.1" 200 -
+[INFO] 2025-04-30 15:49:34,545 - 10.163.153.57 - - [30/Apr/2025 15:49:34] "GET /historial HTTP/1.1" 200 -
+[INFO] 2025-04-30 15:49:50,456 - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:49:50,797 - HTTP Request: POST https://api.openai.com/v1/threads/thread_nLyi8vI32gMrKMHyY3N7eOYr/messages "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:49:51,683 - HTTP Request: POST https://api.openai.com/v1/threads/thread_nLyi8vI32gMrKMHyY3N7eOYr/runs "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:49:52,195 - HTTP Request: GET https://api.openai.com/v1/threads/thread_nLyi8vI32gMrKMHyY3N7eOYr/runs/run_aDdT6uQLzRjDPpdDH7MVcAsY "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:49:53,526 - HTTP Request: GET https://api.openai.com/v1/threads/thread_nLyi8vI32gMrKMHyY3N7eOYr/runs/run_aDdT6uQLzRjDPpdDH7MVcAsY "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:49:54,858 - HTTP Request: GET https://api.openai.com/v1/threads/thread_nLyi8vI32gMrKMHyY3N7eOYr/runs/run_aDdT6uQLzRjDPpdDH7MVcAsY "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:49:56,175 - HTTP Request: GET https://api.openai.com/v1/threads/thread_nLyi8vI32gMrKMHyY3N7eOYr/runs/run_aDdT6uQLzRjDPpdDH7MVcAsY "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:49:56,496 - HTTP Request: GET https://api.openai.com/v1/threads/thread_nLyi8vI32gMrKMHyY3N7eOYr/messages "HTTP/1.1 200 OK"
+[INFO] 2025-04-30 15:49:58,212 - 10.163.153.57 - - [30/Apr/2025 15:49:58] "GET / HTTP/1.1" 200 -
+[INFO] 2025-04-30 15:49:58,267 - 10.163.153.57 - - [30/Apr/2025 15:49:58] "GET /static/grafico_salud.png HTTP/1.1" 200 -

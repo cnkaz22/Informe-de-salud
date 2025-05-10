@@ -1,0 +1,64 @@
+🚨 **Alertas**
+- El tiempo de actividad física es bajo, con solo 7 minutos activos en el día.
+- La distancia recorrida (244 metros) es mínima y no refleja un nivel de actividad saludable.
+
+💡 **Consejos**
+- Intenta aumentar tu tiempo de actividad a al menos 30 minutos diarios, integrando caminatas más largas o ejercicios.
+- Considera establecer un objetivo de distancia diario, comenzando con al menos 1 kilómetro y aumentando gradualmente.
+
+🌟 **Buenas prácticas**
+- Mantienes una frecuencia cardíaca saludable de 73.92 bpm, que es un gran indicador de tu estado físico general.
+- Has quemado 860.33 kcal, mostrando un esfuerzo notable a pesar de la corta duración de la actividad.
+
+```json
+{
+  "actividad_fisica": [
+    {
+      "icono": "🚶‍♂️",
+      "titulo": "Aumenta tu actividad",
+      "texto": "Intenta caminar un poco más cada día para aumentar tu tiempo de actividad física.",
+      "prioridad": "alta"
+    }
+  ],
+  "nutricion": [
+    {
+      "icono": "🥗",
+      "titulo": "Energía limpia",
+      "texto": "Asegúrate de incluir una dieta equilibrada que complemente tu actividad física.",
+      "prioridad": "media"
+    }
+  ],
+  "descanso_y_recuperacion": [
+    {
+      "icono": "🛌",
+      "titulo": "Rutina nocturna",
+      "texto": "Establece una rutina de sueño adecuada para facilitar la recuperación.",
+      "prioridad": "media"
+    }
+  ],
+  "salud_mental": [
+    {
+      "icono": "🧘‍♂️",
+      "titulo": "Resetea tu mente",
+      "texto": "Dedica tiempo a la meditación o actividades relajantes para mejorar tu bienestar mental.",
+      "prioridad": "baja"
+    }
+  ],
+  "hidratacion": [
+    {
+      "icono": "💧",
+      "titulo": "Recuerda beber",
+      "texto": "Mantente bien hidratado para apoyar tu rendimiento físico y salud general.",
+      "prioridad": "media"
+    }
+  ],
+  "elogios": [
+    {
+      "icono": "🏆",
+      "titulo": "Buen trabajo",
+      "texto": "Excelente esfuerzo al quemar 860.33 kcal.",
+      "prioridad": "n/a"
+    }
+  ]
+}
+```

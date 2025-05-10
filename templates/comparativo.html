@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Comparativo de Salud</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --azul: #4299e1;
+      --morado: #805ad5;
+      --verde: #38a169;
+      --naranja: #ed8936;
+      --rojo: #e53e3e;
+      --gris: #edf2f7;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      background: var(--gris);
+      color: #2d3748;
+    }
+
+    .navbar {
+      background: linear-gradient(90deg, var(--azul), var(--morado));
+      padding: 16px 40px;
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .navbar a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 10px 16px;
+      border-radius: 8px;
+      transition: background 0.2s ease;
+    }
+
+    .navbar a:hover {
+      background-color: rgba(255,255,255,0.15);
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 30px;
+    }
+
+    h1, h2 {
+      font-weight: 700;
+      margin-bottom: 25px;
+      background: linear-gradient(45deg, var(--azul), var(--morado));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    h1 {
+      font-size: 36px;
+    }
+
+    h2 {
+      font-size: 26px;
+      margin-top: 60px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .grafico {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .grafico img {
+      max-width: 100%;
+      border-radius: 16px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+    }
+
+    .ranking-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 24px;
+      margin-top: 30px;
+    }
+
+    .ranking-card {
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease;
+    }
+
+    .ranking-card:hover {
+      transform: translateY(-4px);
+    }
+
+    .ranking-icon {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .ranking-fecha {
+      font-weight: 600;
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+
+    .ranking-text {
+      font-size: 15px;
+      font-weight: 500;
+    }
+
+    .ranking-card.full .ranking-text { color: var(--verde); }
+    .ranking-card.medium .ranking-text { color: var(--naranja); }
+    .ranking-card.low .ranking-text { color: var(--rojo); }
+    .ranking-card.fail .ranking-text { color: #718096; }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="/">🏠 Inicio</a>
+    <a href="/metas">🎯 Metas</a>
+    <a href="/consejos">💡 Consejos</a>
+    <a href="/historial">📅 Historial</a>
+  </nav>
+
+  <div class="container">
+    <h1>📊 Comparativo de Salud</h1>
+
+    <div class="grafico">
+      <img src="/static/grafico_salud.png" alt="Gráfico comparativo">
+    </div>
+
+    <h2>🏆 Ranking Semanal</h2>
+    <div class="ranking-grid">
+      {% for r in ranking[:5] %}
+        {% set clase = 'fail' %}
+        {% set icono = '😓' %}
+        {% if r.puntos == 3 %}
+          {% set clase = 'full' %}
+          {% set icono = '🏆' %}
+        {% elif r.puntos == 2 %}
+          {% set clase = 'medium' %}
+          {% set icono = '🎯' %}
+        {% elif r.puntos == 1 %}
+          {% set clase = 'low' %}
+          {% set icono = '⚠️' %}
+        {% endif %}
+        <div class="ranking-card {{ clase }}">
+          <div class="ranking-icon">{{ icono }}</div>
+          <div class="ranking-fecha">{{ r.fecha }}</div>
+          <div class="ranking-text">{{ r.puntos }} / 3 metas cumplidas</div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+</body>
+</html>

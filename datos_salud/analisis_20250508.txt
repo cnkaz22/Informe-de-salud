@@ -1,0 +1,63 @@
+🚨 **Alertas**
+- No hay datos preocupantes o fuera de rango saludable.
+
+💡 **Consejos**
+- Mantén una adecuada ingesta calórica acorde a tus actividades físicas y necesidades personales.
+- Considera incrementar la distancia o los minutos activos para mejorar aún más tu condición física.
+
+🌟 **Buenas prácticas**
+- Excelente trabajo al quemar 389 kcal hoy.
+- Has logrado mantener una frecuencia cardíaca saludable durante tu actividad, lo cual es un buen indicador de tu estado físico.
+
+```json
+{
+  "actividad_fisica": [
+    {
+      "icono": "🚶‍♂️",
+      "titulo": "Camina en bloques",
+      "texto": "Sigue aumentando la distancia y los minutos activos para mejorar tu estado físico.",
+      "prioridad": "alta"
+    }
+  ],
+  "nutricion": [
+    {
+      "icono": "🥗",
+      "titulo": "Energía limpia",
+      "texto": "Asegúrate de equilibrar tu ingesta calórica con una dieta rica en nutrientes.",
+      "prioridad": "media"
+    }
+  ],
+  "descanso_y_recuperacion": [
+    {
+      "icono": "🛌",
+      "titulo": "Rutina nocturna",
+      "texto": "Recuerda descansar adecuadamente para permitir la recuperación de tu cuerpo tras el ejercicio.",
+      "prioridad": "media"
+    }
+  ],
+  "salud_mental": [
+    {
+      "icono": "🧘‍♂️",
+      "titulo": "Resetea tu mente",
+      "texto": "Tómate un tiempo para relajarte y mantener tu salud mental en equilibrio.",
+      "prioridad": "baja"
+    }
+  ],
+  "hidratacion": [
+    {
+      "icono": "💧",
+      "titulo": "Recuerda beber",
+      "texto": "Mantente hidratado antes, durante y después de tus actividades físicas.",
+      "prioridad": "media"
+    }
+  ],
+  "elogios": [
+    {
+      "icono": "🏆",
+      "titulo": "Buen trabajo",
+      "texto": "Has tenido un muy buen día en cuanto a actividad física y frecuencia cardíaca saludable.",
+      "prioridad": "n/a"
+    }
+  ]
+}
+```
