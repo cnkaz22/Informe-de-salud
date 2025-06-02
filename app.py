@@ -59,7 +59,7 @@ def informes():
         if match:
             archivos_validos.append({
                 "nombre": a,
-                "fecha": match.group(1)  # esto da "20250430"
+                "fecha": match.group(1) 
             })
     mes_filtro = request.args.get("mes")
 

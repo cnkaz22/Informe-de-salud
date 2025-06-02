@@ -1,0 +1,64 @@
+🚨 **Alertas**
+- El peso y la altura no están registrados, lo que dificulta evaluar el índice de masa corporal y otros parámetros de salud.
+- No se reportan datos de actividad que sugieran un exceso de sedentarismo, pero solamente 31 minutos activos podrían ser insuficientes para algunos objetivos de salud, dependiendo del contexto.
+
+💡 **Consejos**
+- Se recomienda llevar un registro del peso y la altura para un mejor seguimiento de la salud general y ayudar a establecer metas personalizadas.
+- Intenta aumentar los minutos activos en el día a día, como caminar más o realizar actividades físicas cotidianas.
+
+🌟 **Buenas prácticas**
+- Buen trabajo manteniendo una frecuencia cardíaca en un rango saludable, lo que indica un nivel aceptable de condición física durante la actividad. 
+- Has logrado una distancia de 1370.47 metros, lo que es un gran paso hacia mantener un estilo de vida activo.
+
+```json
+{
+  "actividad_fisica": [
+    {
+      "icono": "🚶‍♂️",
+      "titulo": "Camina en bloques",
+      "texto": "Intenta añadir pequeñas caminatas durante el día para aumentar tu actividad física a más de 31 minutos.",
+      "prioridad": "alta"
+    }
+  ],
+  "nutricion": [
+    {
+      "icono": "🥗",
+      "titulo": "Energía limpia",
+      "texto": "Asegúrate de tener una alimentación balanceada que apoye tus objetivos de fitness y energía diaria.",
+      "prioridad": "media"
+    }
+  ],
+  "descanso_y_recuperacion": [
+    {
+      "icono": "🛌",
+      "titulo": "Rutina nocturna",
+      "texto":"Prioriza un buen descanso nocturno para ayudar en la recuperación muscular y bienestar general.",
+      "prioridad": "media"
+    }
+  ],
+  "salud_mental": [
+    {
+      "icono": "🧘‍♂️",
+      "titulo": "Resetea tu mente",
+      "texto":"Dedica tiempo para actividades relajantes que fomenten el bienestar mental.",
+      "prioridad": "baja"
+    }
+  ],
+  "hidratacion": [
+    {
+      "icono": "💧",
+      "titulo": "Recuerda beber",
+      "texto": "Mantente hidratado a lo largo del día, especialmente si realizas actividad física.",
+      "prioridad": "media"
+    }
+  ],
+  "elogios": [
+    {
+      "icono": "🏆",
+      "titulo": "Buen trabajo",
+      "texto": "Has realizado 31 minutos de actividad y has mantenido una buena frecuencia cardíaca.",
+      "prioridad": "n/a"
+    }
+  ]
+}
+```

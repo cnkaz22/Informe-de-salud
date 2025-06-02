@@ -1,0 +1,64 @@
+🚨 **Alertas**
+- La cantidad de minutos activos (8 min) es muy baja y sugiere un nivel de actividad físico mínimo, lo cual puede ser preocupante para la salud a largo plazo.
+- Aunque la frecuencia cardíaca (85.42 bpm) está dentro de un rango normal, se recomienda evaluar la actividad física para mantenerla en niveles óptimos durante el ejercicio.
+
+💡 **Consejos**
+- Intenta aumentar tus minutos activos a al menos 30 minutos al día para mejorar tu salud cardiovascular y bienestar general.
+- Considera incorporar ejercicios de bajo impacto que te permitan aumentar la distancia recorrida y los minutos de actividad física de forma gradual.
+
+🌟 **Buenas prácticas**
+- Has mantenido un buen control de tus calorías consumidas (1596.08 kcal), lo que es un signo positivo en la gestión de tu salud nutricional.
+- Tu peso (63 kg) y altura (1.64 m) indican un Índice de Masa Corporal (IMC) saludable, lo cual es un buen indicador de bienestar físico.
+
+```json
+{
+  "actividad_fisica": [
+    {
+      "icono": "🚶‍♂️",
+      "titulo": "Camina en bloques",
+      "texto": "Intenta aumentar tus minutos activos a al menos 30 minutos al día para mejorar tu salud cardiovascular.",
+      "prioridad": "alta"
+    }
+  ],
+  "nutricion": [
+    {
+      "icono": "🥗",
+      "titulo": "Energía limpia",
+      "texto": "Continúa controlando tu ingesta calórica para mantener un equilibrio nutricional adecuado.",
+      "prioridad": "media"
+    }
+  ],
+  "descanso_y_recuperacion": [
+    {
+      "icono": "🛌",
+      "titulo": "Rutina nocturna",
+      "texto": "Asegúrate de descansar adecuadamente para permitir que tu cuerpo se recupere y se mantenga activo.",
+      "prioridad": "media"
+    }
+  ],
+  "salud_mental": [
+    {
+      "icono": "🧘‍♂️",
+      "titulo": "Resetea tu mente",
+      "texto": "Dedica tiempo a la meditación o actividades que te relajen para reducir el estrés.",
+      "prioridad": "baja"
+    }
+  ],
+  "hidratacion": [
+    {
+      "icono": "💧",
+      "titulo": "Recuerda beber",
+      "texto": "Asegúrate de mantenerte hidratado a lo largo del día, especialmente si aumentas tu actividad física.",
+      "prioridad": "media"
+    }
+  ],
+  "elogios": [
+    {
+      "icono": "🏆",
+      "titulo": "Buen trabajo",
+      "texto": "Has logrado mantener un peso adecuado y controlar tu ingesta calórica, ¡sigue así!",
+      "prioridad": "n/a"
+    }
+  ]
+}
+```

@@ -9,6 +9,7 @@ import yagmail
 from openai import OpenAI
 from databueno import generar_datos_salud, generar_grafica, generar_grafico_comparativo
 import matplotlib
+import glob
 
 matplotlib.use('Agg')
 
@@ -24,9 +25,9 @@ def ejecutar_tarea():
     )
     logger = logging.getLogger(__name__)
 
-    logger.info("⏳ Descargando datos de salud...")
+    logger.info("Descargando datos de salud...")
     generar_datos_salud()
-    logger.info("✅ Datos de salud descargados.")
+    logger.info("Datos de salud descargados.")
 
     fecha_hoy = datetime.now().strftime('%Y%m%d')
     ruta_json = os.path.join("datos_salud", f"datos_{fecha_hoy}.json")
@@ -59,7 +60,7 @@ def ejecutar_tarea():
     with open(f"datos_salud/analisis_{fecha_hoy}.txt", "w", encoding="utf-8") as out:
         out.write(respuesta)
 
-    logger.info("📊 Generando gráfica diaria...")
+    logger.info("Generando gráfica diaria...")
     generar_grafica(datos)
 
     origen = "datos_salud/grafico_salud.png"
@@ -67,27 +68,41 @@ def ejecutar_tarea():
     if os.path.exists(origen):
         os.makedirs("static", exist_ok=True)
         shutil.copy(origen, destino)
-        logger.info("✅ Gráfico diario copiado a /static/")
+        logger.info("Gráfico diario copiado a /static/")
     else:
-        logger.warning("⚠️ El gráfico diario no se encontró.")
+        logger.warning("El gráfico diario no se encontró.")
 
-    logger.info("📊 Generando gráfico comparativo...")
+    logger.info("Generando gráfico comparativo...")
     generar_grafico_comparativo()
-    logger.info("✅ Gráfico comparativo actualizado.")
+    logger.info("Gráfico comparativo actualizado.")
+
+    carpeta = os.path.join(os.getcwd(), "datos_salud")
+    patron = os.path.join(carpeta, "analisis_*.txt")
+    archivos = glob.glob(patron)
+
+    ultimo_archivo = max(archivos, key=os.path.getctime)
+
+    with open(ultimo_archivo, "r", encoding="utf-8") as f:
+        contenido = f.read()
+
+   
+    parte_texto = contenido.split('{')[0].strip()
+    respuesta_parse = parte_texto
+
 
     # Enviar correo
-    logger.info("📬 Enviando email...")
+    logger.info("Enviando email...")
     yag = yagmail.SMTP(user=os.getenv("EMAIL_USER"), password=os.getenv("EMAIL_PASS"))
     yag.send(
         to=os.getenv("EMAIL_DEST"),
         subject="🩺 Tu informe diario de salud",
         contents=[
-            f"Análisis IA:\n\n{respuesta}",
+            f"Análisis IA:\n\n{respuesta_parse}",
             "Adjunto el gráfico diario. Puedes ver el comparativo en la app web."
         ],
         attachments=[destino]
     )
-    logger.info("✅ Informe enviado por correo.")
+    logger.info("Informe enviado por correo.")
 
     
 
