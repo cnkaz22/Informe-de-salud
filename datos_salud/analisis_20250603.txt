@@ -1,0 +1,63 @@
+🚨 **Alertas**
+- No se registraron minutos activos ni distancia recorrida, lo que sugiere un día de sedentarismo.
+- Aunque la frecuencia cardíaca está dentro de un rango aceptable, un nivel bajo de actividad podría contribuir a problemas de salud a largo plazo.
+
+💡 **Consejos**
+- Intenta incorporar al menos 30 minutos de actividad física moderada cada día para mejorar tu salud cardiovascular.
+- Considera establecer metas pequeñas para aumentar tu nivel de actividad, como caminar durante 10 minutos cada hora.
+
+🌟 **Buenas prácticas**
+- Mantienes un peso saludable para tu altura, lo que es un gran logro y muestra que has estado cuidando tu alimentación y bienestar. ¡Sigue así!
+
+```json
+{
+  "actividad_fisica": [
+    {
+      "icono": "🚶‍♂️",
+      "titulo": "Camina en bloques",
+      "texto": "Realiza caminatas cortas a lo largo del día para aumentar tu actividad física.",
+      "prioridad": "alta"
+    }
+  ],
+  "nutricion": [
+    {
+      "icono": "🥗",
+      "titulo": "Energía limpia",
+      "texto": "Asegúrate de consumir alimentos balanceados para mantener tu energía durante el día.",
+      "prioridad": "media"
+    }
+  ],
+  "descanso_y_recuperacion": [
+    {
+      "icono": "🛌",
+      "titulo": "Rutina nocturna",
+      "texto": "Establece una rutina de sueño regular para mejorar la calidad de tu descanso.",
+      "prioridad": "media"
+    }
+  ],
+  "salud_mental": [
+    {
+      "icono": "🧘‍♂️",
+      "titulo": "Resetea tu mente",
+      "texto": "Practica la meditación o ejercicios de respiración para reducir el estrés.",
+      "prioridad": "baja"
+    }
+  ],
+  "hidratacion": [
+    {
+      "icono": "💧",
+      "titulo": "Recuerda beber",
+      "texto": "Mantente hidratado bebiendo suficiente agua a lo largo del día.",
+      "prioridad": "media"
+    }
+  ],
+  "elogios": [
+    {
+      "icono": "🏆",
+      "titulo": "Buen trabajo",
+      "texto": "Felicidades por mantener un peso saludable. ¡Sigue cuidándote!",
+      "prioridad": "n/a"
+    }
+  ]
+}
+```

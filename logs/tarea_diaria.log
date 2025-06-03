@@ -438,3 +438,42 @@
 [INFO] 2025-06-02 19:51:33,807 - Gráfico comparativo actualizado.
 [INFO] 2025-06-02 19:51:33,812 - Enviando email...
 [INFO] 2025-06-02 19:51:36,482 - Informe enviado por correo.
+[INFO] 2025-06-03 09:53:34,112 - Descargando datos de salud...
+[INFO] 2025-06-03 09:53:36,166 - Datos de salud descargados.
+[INFO] 2025-06-03 09:53:37,598 - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+[INFO] 2025-06-03 09:53:38,173 - HTTP Request: POST https://api.openai.com/v1/threads/thread_Awr8sb2vRskLGKbQfPonX5YI/messages "HTTP/1.1 200 OK"
+[INFO] 2025-06-03 09:53:39,337 - HTTP Request: POST https://api.openai.com/v1/threads/thread_Awr8sb2vRskLGKbQfPonX5YI/runs "HTTP/1.1 200 OK"
+[INFO] 2025-06-03 09:53:40,157 - HTTP Request: GET https://api.openai.com/v1/threads/thread_Awr8sb2vRskLGKbQfPonX5YI/runs/run_8cioTYZjDpzqiTxfs3XEbs2D "HTTP/1.1 200 OK"
+[INFO] 2025-06-03 09:53:43,945 - HTTP Request: GET https://api.openai.com/v1/threads/thread_Awr8sb2vRskLGKbQfPonX5YI/runs/run_8cioTYZjDpzqiTxfs3XEbs2D "HTTP/1.1 200 OK"
+[INFO] 2025-06-03 09:53:45,378 - HTTP Request: GET https://api.openai.com/v1/threads/thread_Awr8sb2vRskLGKbQfPonX5YI/runs/run_8cioTYZjDpzqiTxfs3XEbs2D "HTTP/1.1 200 OK"
+[INFO] 2025-06-03 09:53:47,018 - HTTP Request: GET https://api.openai.com/v1/threads/thread_Awr8sb2vRskLGKbQfPonX5YI/runs/run_8cioTYZjDpzqiTxfs3XEbs2D "HTTP/1.1 200 OK"
+[INFO] 2025-06-03 09:53:48,553 - HTTP Request: GET https://api.openai.com/v1/threads/thread_Awr8sb2vRskLGKbQfPonX5YI/runs/run_8cioTYZjDpzqiTxfs3XEbs2D "HTTP/1.1 200 OK"
+[INFO] 2025-06-03 09:53:50,191 - HTTP Request: GET https://api.openai.com/v1/threads/thread_Awr8sb2vRskLGKbQfPonX5YI/runs/run_8cioTYZjDpzqiTxfs3XEbs2D "HTTP/1.1 200 OK"
+[INFO] 2025-06-03 09:53:50,498 - HTTP Request: GET https://api.openai.com/v1/threads/thread_Awr8sb2vRskLGKbQfPonX5YI/messages "HTTP/1.1 200 OK"
+[INFO] 2025-06-03 09:53:50,504 - Generando gráfica diaria...
+[INFO] 2025-06-03 09:53:50,912 - Gráfico diario copiado a /static/
+[INFO] 2025-06-03 09:53:50,913 - Generando gráfico comparativo...
+[INFO] 2025-06-03 09:53:51,356 - Gráfico comparativo actualizado.
+[INFO] 2025-06-03 09:53:51,376 - Enviando email...
+[INFO] 2025-06-03 09:53:53,570 - Informe enviado por correo.
+[INFO] 2025-06-03 09:53:53,647 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.138:8080
+[INFO] 2025-06-03 09:53:53,648 - [33mPress CTRL+C to quit[0m
+[INFO] 2025-06-03 09:53:57,979 - 192.168.1.138 - - [03/Jun/2025 09:53:57] "GET / HTTP/1.1" 200 -
+[INFO] 2025-06-03 09:53:58,038 - 192.168.1.138 - - [03/Jun/2025 09:53:58] "GET /static/grafico_salud_diario.png HTTP/1.1" 200 -
+[INFO] 2025-06-03 09:53:58,476 - 192.168.1.138 - - [03/Jun/2025 09:53:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[INFO] 2025-06-03 09:54:06,880 - 192.168.1.138 - - [03/Jun/2025 09:54:06] "GET / HTTP/1.1" 200 -
+[INFO] 2025-06-03 09:54:06,900 - 192.168.1.138 - - [03/Jun/2025 09:54:06] "[36mGET /static/grafico_salud_diario.png HTTP/1.1[0m" 304 -
+[INFO] 2025-06-03 09:54:08,030 - 192.168.1.138 - - [03/Jun/2025 09:54:08] "GET /historial HTTP/1.1" 200 -
+[INFO] 2025-06-03 09:54:13,204 - 192.168.1.138 - - [03/Jun/2025 09:54:13] "GET /comparativo HTTP/1.1" 200 -
+[INFO] 2025-06-03 09:54:13,255 - 192.168.1.138 - - [03/Jun/2025 09:54:13] "GET /static/grafico_salud.png HTTP/1.1" 200 -
+[INFO] 2025-06-03 09:54:16,382 - 192.168.1.138 - - [03/Jun/2025 09:54:16] "GET /consejos HTTP/1.1" 200 -
+[INFO] 2025-06-03 09:54:19,301 - 192.168.1.138 - - [03/Jun/2025 09:54:19] "GET / HTTP/1.1" 200 -
+[INFO] 2025-06-03 09:54:19,333 - 192.168.1.138 - - [03/Jun/2025 09:54:19] "[36mGET /static/grafico_salud_diario.png HTTP/1.1[0m" 304 -
+[INFO] 2025-06-03 09:54:21,835 - 192.168.1.138 - - [03/Jun/2025 09:54:21] "GET /metas HTTP/1.1" 200 -
+[INFO] 2025-06-03 09:54:29,747 - 192.168.1.138 - - [03/Jun/2025 09:54:29] "GET / HTTP/1.1" 200 -
+[INFO] 2025-06-03 09:54:29,780 - 192.168.1.138 - - [03/Jun/2025 09:54:29] "[36mGET /static/grafico_salud_diario.png HTTP/1.1[0m" 304 -
+[INFO] 2025-06-03 09:54:30,863 - 192.168.1.138 - - [03/Jun/2025 09:54:30] "GET / HTTP/1.1" 200 -
+[INFO] 2025-06-03 09:54:30,881 - 192.168.1.138 - - [03/Jun/2025 09:54:30] "[36mGET /static/grafico_salud_diario.png HTTP/1.1[0m" 304 -
