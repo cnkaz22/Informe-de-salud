@@ -20,7 +20,7 @@ def mostrar_informe():
     ruta_analisis = os.path.join("datos_salud", f"analisis_{fecha_hoy}.txt")
 
     if not os.path.exists(ruta_json):
-        return "❌ No hay datos disponibles para hoy.", 404
+        return "No hay datos disponibles para hoy.", 404
 
     with open(ruta_json, "r", encoding="utf-8") as f:
         datos = json.load(f)
@@ -46,32 +46,50 @@ def mostrar_informe():
 )
 
 
-import re
-
 @app.route("/historial")
 def informes():
-
     archivos = os.listdir("datos_salud")
     print("🗂️ Archivos en datos_salud:", archivos)
 
+    
     archivos_validos = []
     for a in archivos:
-        match = re.match(r"^datos_(\d{8})\.json$", a)
+        match = re.match(r"^analisis_(\d{8})\.txt$", a)
         if match:
             archivos_validos.append({
                 "nombre": a,
-                "fecha": match.group(1) 
+                "fecha": match.group(1)  # "YYYYMMDD"
             })
+
+  
+    meses = sorted({ 
+        f"{a['fecha'][:4]}-{a['fecha'][4:6]}" 
+        for a in archivos_validos 
+    })
+
+   
     mes_filtro = request.args.get("mes")
 
+    
     if mes_filtro:
-        archivos_validos = [a for a in archivos_validos if a["fecha"].startswith(mes_filtro.replace("-", ""))]
+        # mes_filtro = "2025-06"
+        mes_sin_guion = mes_filtro.replace("-", "")  # "202506"
+        archivos_validos = [
+            a for a in archivos_validos 
+            if a["fecha"].startswith(mes_sin_guion)
+        ]
 
-    # obtener lista de meses únicos
-    meses = sorted({a["fecha"][:6] for a in archivos_validos})
+    print("Archivos válidos:", archivos_validos)
+    print("Meses:", meses)
+    print("Mes filtro:", mes_filtro)
 
-    print("✅ Archivos válidos:", archivos_validos)
-    return render_template("historial.html", archivos=archivos_validos)
+    return render_template(
+        "historial.html",
+        archivos=archivos_validos,
+        meses=meses,
+        mes_filtro=mes_filtro
+    )
+
 
 
 @app.route("/informe/<fecha>")
@@ -128,7 +146,6 @@ def ver_comparativo():
                 "minutos": datos["Minutos Activos"]["valor"]
             })
 
-    # Leer metas de usuario
     ruta_metas = os.path.join("datos_salud", "metas_usuario.json")
     if os.path.exists(ruta_metas):
         with open(ruta_metas, "r", encoding="utf-8") as f:
@@ -136,7 +153,6 @@ def ver_comparativo():
     else:
         metas = {"Calorías": 300, "Distancia": 2000, "Minutos Activos": 30}
 
-    # Ranking de cumplimiento
     ranking = []
     for v in valores:
         cumplidas = 0
@@ -174,7 +190,7 @@ def consejos():
     ruta_analisis = os.path.join("datos_salud", f"analisis_{fecha_hoy}.txt")
 
     if not os.path.exists(ruta_analisis):
-        return "❌ No hay análisis generado aún.", 404
+        return "No hay análisis generado aún.", 404
 
     with open(ruta_analisis, "r", encoding="utf-8") as f:
         contenido = f.read()
@@ -182,14 +198,13 @@ def consejos():
     # 🔍 Buscar el primer bloque JSON válido, incluso si no está entre ```json ... ```
     match = re.search(r"(\{[\s\S]+\})", contenido)
     if not match:
-        return "❌ No se encontró JSON válido en el análisis.", 400
+        return "No se encontró JSON válido en el análisis.", 400
 
     try:
         data = json.loads(match.group(1))
     except json.JSONDecodeError:
-        return "❌ Error al decodificar el JSON de consejos.", 400
+        return "Error al decodificar el JSON de consejos.", 400
 
-    # 🧩 Unir todos los consejos en una lista de tarjetas
     tarjetas = []
     for categoria in [
         "actividad_fisica", "nutricion", "descanso_y_recuperacion",
@@ -204,8 +219,6 @@ def consejos():
 @app.route("/metas", methods=["GET", "POST"])
 def metas():
     ruta_metas = os.path.join("datos_salud", "metas_usuario.json")
-    
-    # Si el usuario envía nuevas metas desde el formulario
     if request.method == "POST":
         metas_usuario = {
             "Calorías": float(request.form["Calorías"]),
@@ -215,18 +228,16 @@ def metas():
         with open(ruta_metas, "w", encoding="utf-8") as f:
             json.dump(metas_usuario, f, indent=2)
 
-    # Cargar metas guardadas
     if os.path.exists(ruta_metas):
         with open(ruta_metas, "r", encoding="utf-8") as f:
             metas_guardadas = json.load(f)
     else:
         metas_guardadas = {"Calorías": 300, "Distancia": 2000, "Minutos Activos": 30}
 
-    # Cargar datos de hoy
     fecha_hoy = datetime.now().strftime('%Y%m%d')
     ruta_datos = os.path.join("datos_salud", f"datos_{fecha_hoy}.json")
     if not os.path.exists(ruta_datos):
-        return "❌ No hay datos de salud de hoy.", 404
+        return "No hay datos de salud de hoy.", 404
 
     with open(ruta_datos, "r", encoding="utf-8") as f:
         datos = json.load(f)
@@ -246,9 +257,6 @@ def metas():
         })
 
     return render_template("metas.html", metas=evaluacion, metas_form=metas_guardadas)
-
-
-
 
 
 if __name__ == "__main__":
