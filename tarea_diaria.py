@@ -50,7 +50,7 @@ def ejecutar_tarea():
         if run_status.status == "completed":
             break
         elif run_status.status == "failed":
-            raise Exception("❌ El asistente falló en responder.")
+            raise Exception(" El asistente falló en responder.")
         time.sleep(1)
 
     messages = client.beta.threads.messages.list(thread_id=thread.id)

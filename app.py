@@ -49,7 +49,7 @@ def mostrar_informe():
 @app.route("/historial")
 def informes():
     archivos = os.listdir("datos_salud")
-    print("🗂️ Archivos en datos_salud:", archivos)
+    print("Archivos en datos_salud:", archivos)
 
     
     archivos_validos = []
@@ -98,7 +98,7 @@ def ver_informe(fecha):
     ruta_analisis = os.path.join("datos_salud", f"analisis_{fecha}.txt")
 
     if not os.path.exists(ruta_json):
-        return "❌ No hay datos para esa fecha.", 404
+        return "No hay datos para esa fecha.", 404
 
     with open(ruta_json, "r", encoding="utf-8") as f:
         datos = json.load(f)
